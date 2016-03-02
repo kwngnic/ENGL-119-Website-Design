@@ -1,0 +1,12 @@
+header h1{
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+i {
+    display: inline-block;
+}
