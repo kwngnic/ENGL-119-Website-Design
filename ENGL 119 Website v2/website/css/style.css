@@ -159,6 +159,28 @@
 	border: #CFCAB8 solid 1px;
 }
 
+#search-results{
+	display:table;
+	vertical-align:top;
+	border-spacing:20px;
+}
+
+#row1,#row2{
+	display:table-row;
+}
+
+.textbook,.descript{
+	display:table-cell;
+	vertical-align:top;
+}
+
+.textbook img{
+	width:150px;
+	height:200px;
+}
+
+
+
 /* Form */
 
 	input[type="text"],
