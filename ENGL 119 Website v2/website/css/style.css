@@ -152,11 +152,57 @@
 	float: right;
 }
 
+#log-me-in{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	background-color:white;
+	border:#9FD400 solid 1px;
+	text-decoration:none;
+	color:#9FD400;
+	-webkit-transition: background-color 1s, border 1s; /* Safari */
+    transition: background-color 1s, border 1s;
+}
 
+#log-me-in:hover{
+	background-color:#9FD400;
+	color:white;
+	border:transparent 1px solid;
+}
+.seller img{
+	margin:10px;
+	width:100px;
+	height:80px;
+	position:relative;
+	top:10px;
+}
+
+#credibility-score{
+	float:right;
+	width:400px;
+	font-size:40px;
+	font-family:"Open Sans",sans-serif;
+	font-color:green;
+	font-weight:800;
+}
+
+.seller-contact{
+	position:relative;
+	overflow:hidden;
+}
 #guide{
 	float:left;
 	margin-right:10px;
 	border: #CFCAB8 solid 1px;
+}
+
+#alvins{
+	width:400px;
+	height:600px;
+	position:absolute;
+	top:10px;
+	right:40px;
 }
 
 #search-results{
@@ -179,6 +225,23 @@
 	height:200px;
 }
 
+.contact{
+	width:120px;
+	padding:10px;
+	text-align:center;
+	background-color:#92C949;
+	border-radius:5px;
+}
+
+.contact a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+.contact:hover{
+	background-color:#45BE65;
+}
 
 
 /* Form */
