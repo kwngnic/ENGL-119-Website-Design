@@ -178,6 +178,12 @@
 	position:relative;
 	top:10px;
 }
+.seller-contact td{
+	color:#474747;
+	font-size:20px;
+	font-weight:500;
+	padding:20px;
+}
 
 #credibility-score{
 	float:right;
